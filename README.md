@@ -50,8 +50,18 @@ android{
 
 
 ​    
-    在 settings 设置选项中 的plugins 搜索 protocol buffer editor  这个工具 用来 显示编写 protobuf语法高亮 错误问题
+​    在 settings 设置选项中 的plugins 搜索 protocol buffer editor  这个工具 用来 显示编写 protobuf语法高亮 错误问题
 
+#####     Protobuf数据结构
 
-​    
-
+| **Proto**  | **C++** | **Java**   | **Python** |
+| ---------- | ------- | ---------- | ---------- |
+| **double** | double  | double     | Float      |
+| **float**  | float   | float      | Float      |
+| **int32**  | int32   | int        | int        |
+| **int64**  | int64   | long       | int/long   |
+| **uint32** | uint32  | int        | int/long   |
+| **uint64** | uint64  | long       | int/long   |
+| **bool**   | bool    | boolean    | bool       |
+| **string** | string  | String     |            |
+| **bytes**  | string  | ByteString | str        |
